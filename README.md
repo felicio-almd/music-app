@@ -7,14 +7,11 @@
 <h1 align="center">Spotify Landing Page</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{felicio-almd}/tela-spotify?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/felicio-almd/music-app?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{felicio-almd}/tela-spotify?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/felicio-almd/music-app?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{felicio-almd}/tela-spotify?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{felicio-almd}/tela-spotify?color=56BEB8">
-
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felicio-almd/music-app?color=56BEB8">
 </p>
 
  Status 
