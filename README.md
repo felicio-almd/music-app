@@ -76,6 +76,7 @@ Contribuições são bem-vindas! Se você encontrar problemas ou tiver ideias pa
 
 # Aproveite a música! 🎵🎶
 
+Amostra do final do projeto: 
 ![landing-page](https://github.com/felicio-almd/music-app/assets/115444550/fc410004-fad9-4f01-a6df-00095299ec4b)
 
 ## Getting Started with Create React App
