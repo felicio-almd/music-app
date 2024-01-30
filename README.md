@@ -107,6 +107,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+![landing-page](https://github.com/felicio-almd/music-app/assets/115444550/fc410004-fad9-4f01-a6df-00095299ec4b)
 
 ## Learn More
 
@@ -129,6 +130,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 
 Made with :heart: by <a href="https://github.com/felicio-almd" target="_blank">Felicio</a>
+
 
 &#xa0;
 
