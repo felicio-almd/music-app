@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import './App.css'
+import React, { useEffect, useState } from 'react';
+import Header from '../src/components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
+import Footer from './components/Footer/Footer';
+import Main from './components/Main/Main';
 
 function App() {
+  const [results, setResults] = useState([]);
+  const [artists, setArtists] = useState([]);
+
+  const url = 'http://localhost:4000/artists'
+  const fetchData = async () => {
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Erro ao buscar dados:', error);
+      return [];
+    }
+  };
+
+  const search = async (searchTerm, setResults) => {
+    const tempResults = artists.filter((artist) => {
+      return artist.name.toLowerCase().includes(searchTerm.toLowerCase())
+    });
+
+    setResults(tempResults);
+  };
+
+  useEffect(() => {
+    const fetchDataAndSetArtists = async () => {
+      const data = await fetchData();
+      setArtists(data);
+    };
+
+    fetchDataAndSetArtists();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Sidebar />
+      <Header onSearch={search} setResults={setResults} />
+      <Main results={results}/>
+      <Footer />
     </div>
   );
 }
