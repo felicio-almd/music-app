@@ -1,15 +1,98 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Tela Spotify" />
+
+  &#xa0;
+</div>
+
+<h1 align="center">Spotify Landing Page</h1>
+
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/felicio-almd/tela-spotify?color=56BEB8">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/felicio-almd/tela-spotify?color=56BEB8">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felicio-almd/tela-spotify?color=56BEB8">
+
+  <img alt="License" src="https://img.shields.io/github/license/felicio-almd/tela-spotify?color=56BEB8">
+
+</p>
+
+ Status 
+
+
+<hr>
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0; 
+  <a href="https://github.com/felicio-almd" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About ##
+
+# Music App
+
+Este é um projeto de aplicativo web de música simples, desenvolvido em React. O aplicativo inclui funcionalidades básicas, como navegação, busca de artistas e exibição de playlists.
+
+## Funcionalidades
+
+- **Sidebar:** Menu de navegação lateral para diferentes seções do aplicativo.
+  
+- **Header:** Barra superior com setas de navegação, campo de busca e botões de login e inscrição.
+
+- **Main:** Componente principal que exibe playlists e resultados de busca de artistas.
+
+- **Footer:** Rodapé com informações adicionais.
+
+## Componentes Principais
+
+### 1. Sidebar
+
+A Sidebar fornece links para diferentes seções do aplicativo, permitindo ao usuário navegar facilmente entre elas.
+
+### 2. Header
+
+O Header contém setas de navegação, um campo de busca e botões de login e inscrição. O campo de busca permite que os usuários pesquisem artistas.
+
+### 3. Main
+
+O componente Main exibe playlists e resultados de busca de artistas. Ele reage dinamicamente às mudanças nos resultados de busca.
+
+### 4. Footer
+
+O Footer contém informações adicionais ou links úteis para o usuário.
+
+
+
+## API de Artistas
+Os dados dos artistas são obtidos de uma API local no endpoint /artists. Certifique-se de que o servidor local esteja em execução para obter os dados necessários.
+
+Personalizações
+Sinta-se à vontade para personalizar o aplicativo de acordo com suas necessidades. Adicione mais funcionalidades, estilos ou integre outras APIs para expandir as capacidades do aplicativo.
+
+Contribuições
+Contribuições são bem-vindas! Se você encontrar problemas ou tiver ideias para melhorar o aplicativo, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+# Aproveite a música! 🎵🎶
+
+## Getting Started with Create React App
+## :checkered_flag: Starting ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` and ` npm run db `
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Run db it's necessary, will run the api artists Open [http://localhost:4000](http://localhost:4000)  to make on the search function.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -27,17 +110,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -45,26 +117,22 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## :rocket: Technologies ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The following tools were used in this project:
 
-### Making a Progressive Web App
+- [React](https://pt-br.reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## :white_check_mark: Requirements ##
 
-### Advanced Configuration
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Made with :heart: by <a href="https://github.com/felicio-almd" target="_blank">Felicio</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+&#xa0;
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>
