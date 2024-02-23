@@ -1,5 +1,4 @@
 // App.js
-import './App.css'
 import React, { useEffect, useState } from 'react';
 import Header from '../src/components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
@@ -40,10 +39,10 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='grid grid-areas-layout grid-cols-layout grid-rows-layout min-h-screen gap-3 p-4'>
       <Sidebar />
-      <Header onSearch={search} setResults={setResults} />
-      <Main results={results}/>
+      <Header onSearch={search} setResults={setResults}  />
+      <Main results={results} />
       <Footer />
     </div>
   );
